@@ -6,6 +6,7 @@ const handleClick = async () => {
       email: "joe@smith.com",
       redirect: false,
     });
+    alert(promise.error);
   } catch {
     alert("Handling Error!");
   }
